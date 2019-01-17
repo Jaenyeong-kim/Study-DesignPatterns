@@ -1,6 +1,5 @@
 package com.jaenyeong.strategy.duck;
 
-import com.jaenyeong.strategy.duck.Duck;
 import com.jaenyeong.strategy.fly.FlyNoWay;
 import com.jaenyeong.strategy.quack.Quack;
 

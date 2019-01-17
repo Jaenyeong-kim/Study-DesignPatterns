@@ -9,10 +9,12 @@ public class MiniDuckSimulator {
 
     public static void main(String[] args) {
         Duck mallard = new MallardDuck();
+        System.out.println("MallardDuck");
         mallard.performQuack();
         mallard.performFly();
 
         Duck model = new ModelDuck();
+        System.out.println("ModelDuck");
         model.performFly();
         model.setFlyBehavior(new FlyRocketPowered());
         model.performFly();
